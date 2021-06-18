@@ -1,7 +1,25 @@
 .navButton {
-  background-color: #ccc;
+  color: var(--c-text-color);
+  padding: 10px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: var(--c-theme-20);
+  }
 
   svg {
-    color: red;
+    font-size: 26px;
+
+    & + * {
+      /*Margin for TitleBold*/
+      margin-left: 20px;
+      margin-right: 15px;
+    }
   }
+}
+
+.navButtonSelected {
+  color: var(--c-theme);
 }

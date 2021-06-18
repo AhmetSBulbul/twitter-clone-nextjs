@@ -1,10 +1,10 @@
 import React from "react";
-
+import cn from "classnames";
 import Button from "./button";
 import styles from "./nav-button.module.css"
 
-function NavButton ({children}){
-    return <Button type="button" className={styles.navButton}>{children}</Button>
+function NavButton ({children , selected, ...props}){
+    return <Button type="button" className={cn(styles.navButton, selected && styles.navButtonSelected)} {...props}>{children}</Button>
 }
 
 export default NavButton
