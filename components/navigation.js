@@ -23,7 +23,7 @@ function Navigation({selectedKey}) {
                 <TitleBold>Explore</TitleBold>
             </NavButton>
             
-            <NavButton selected={selectedKey === 'notification'}>
+            <NavButton notify={1} selected={selectedKey === 'notification'}>
                 <Notification/>
                 <TitleBold>Notification</TitleBold>
             </NavButton>
