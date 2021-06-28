@@ -54,6 +54,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.3.5"],
             ["postcss-loader", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:6.1.0"],
             ["postcss-nested", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:5.0.5"],
+            ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:17.0.2"],
             ["storybook-css-modules-preset", "npm:1.1.1"],
@@ -13735,6 +13736,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.3.1"]
           ],
           "linkType": "HARD",
+        }],
+        ["npm:2.3.2", {
+          "packageLocation": "./.yarn/cache/prettier-npm-2.3.2-4467ec48dc-4fd89a7f6a.zip/node_modules/prettier/",
+          "packageDependencies": [
+            ["prettier", "npm:2.3.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["pretty-error", [
@@ -16626,6 +16634,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.3.5"],
             ["postcss-loader", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:6.1.0"],
             ["postcss-nested", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:5.0.5"],
+            ["prettier", "npm:2.3.2"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:a7043a0d3cc4dd204582186d9d12bd8e676391d169f8bc3d2bdc0904de81d1b2e9f44c758d3e5003292ddecbc8ca804d403591b4510454597ed73293c5717b5f#npm:17.0.2"],
             ["storybook-css-modules-preset", "npm:1.1.1"],

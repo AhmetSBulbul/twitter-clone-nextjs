@@ -3,7 +3,7 @@ import Button from '../components/button'
 import NavButton from '../components/nav-button'
 import Navigation from '../components/navigation'
 import { Home } from '../components/icons'
-import TitleBold from '../components/title-bold'
+import TextTitle from '../components/text-title'
 export default {
     title: 'Twitter/Buttons'
 }
@@ -11,6 +11,6 @@ export default {
 export const Normal = () => <Button>Save</Button>
 export const MenuItem = () => <NavButton >
                 <Home/>
-                <TitleBold>Home</TitleBold>
+                <TextTitle>Home</TextTitle>
             </NavButton>
 export const Menu = () => <Navigation selectedKey='explore'/>
