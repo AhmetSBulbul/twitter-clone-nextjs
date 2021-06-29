@@ -1,0 +1,12 @@
+.yarn/
+.icons/
+.public/
+
+
+.next
+node_modules
+.vscode
+.idea
+
+# Storybook exports
+public/guide

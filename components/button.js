@@ -1,10 +1,18 @@
-import React from "react";
-import cn from 'classnames';
+import React from 'react'
+import cn from 'classnames'
 
-import styles from "./button.module.css";
+import styles from './button.module.css'
 
-function Button ({children, className, ...props}){
-    return <button type="button" className={cn(styles.button, className)} {...props}>{children}</button>
+function Button({ stretch = false, children, className, ...props }) {
+  return (
+    <button
+      type="button"
+      className={cn(styles.button, stretch && styles.fullWidth, className)}
+      {...props}
+    >
+      {children}
+    </button>
+  )
 }
 
 export default Button

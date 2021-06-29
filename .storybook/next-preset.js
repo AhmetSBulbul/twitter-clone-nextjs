@@ -35,8 +35,7 @@ module.exports = {
             importLoaders: 1,
             modules: true
           }
-        },
-        
+        }
       ]
     })
 

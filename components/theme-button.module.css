@@ -1,0 +1,15 @@
+.button {
+  background-color: var(--c-theme);
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  font-weight: bold;
+
+  &:hover {
+    color: var(--c-text-color);
+    background-color: var(
+      --c-theme
+    ); //TODO: bu aktif pasif durumuna gore degisecek.
+  }
+}
