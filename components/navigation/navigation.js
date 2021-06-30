@@ -1,7 +1,7 @@
 import React from 'react'
 
 import NavButton from './nav-button'
-import TextTitle from './text-title'
+import TextTitle from '../text/title'
 import {
   Twitter,
   Home,
@@ -12,7 +12,7 @@ import {
   Lists,
   Profile,
   More
-} from './icons'
+} from '../icons'
 
 import styles from './navigation.module.css'
 

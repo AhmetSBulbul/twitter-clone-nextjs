@@ -1,20 +1,22 @@
 import React from 'react'
 import Button from '../components/button'
-import NavButton from '../components/nav-button'
-import Navigation from '../components/navigation'
+import NavButton from '../components/navigation/nav-button'
+import Navigation from '../components/navigation/navigation'
 import { Home } from '../components/icons'
-import TextTitle from '../components/text-title'
+import TextTitle from '../components/text/title'
 import ThemeButton from '../components/theme-button'
+import Stack from '../components/stack'
 export default {
   title: 'Twitter/Buttons'
 }
 
 export const Normal = () => <Button>Save</Button>
 export const Theme = () => (
-  <div>
+  <Stack column>
     <ThemeButton>Tweet</ThemeButton>
     <ThemeButton stretch>Theme Stretch</ThemeButton>
-  </div>
+    <ThemeButton stretch big>Theme Stretch</ThemeButton>
+  </Stack>
 )
 export const MenuItem = () => (
   <NavButton>

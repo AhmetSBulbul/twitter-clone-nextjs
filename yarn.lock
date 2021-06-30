@@ -10462,6 +10462,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"postcss-custom-media@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "postcss-custom-media@npm:8.0.0"
+  peerDependencies:
+    postcss: ^8.1.0
+  checksum: d5dfd5d35158bc1af2512f0c2ce24ee298550e40fc54151a8282d9b03b4238e5ab452676baca484e8af76924abdabfbfe589f95601647087b8c3e9ee07dd7ba6
+  languageName: node
+  linkType: hard
+
 "postcss-flexbugs-fixes@npm:^4.2.1":
   version: 4.2.1
   resolution: "postcss-flexbugs-fixes@npm:4.2.1"
@@ -13059,6 +13068,7 @@ fsevents@^1.2.7:
     css-loader: ^5.2.6
     next: ^11.0.0
     postcss: ^8
+    postcss-custom-media: ^8.0.0
     postcss-loader: ^6.1.0
     postcss-nested: ^5.0.5
     prettier: 2.3.2

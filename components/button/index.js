@@ -1,7 +1,7 @@
 import React from 'react'
 import cn from 'classnames'
 
-import styles from './button.module.css'
+import styles from './style.module.css'
 
 function Button({ stretch = false, children, className, ...props }) {
   return (

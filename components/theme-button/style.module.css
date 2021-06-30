@@ -13,3 +13,7 @@
     ); //TODO: bu aktif pasif durumuna gore degisecek.
   }
 }
+
+.big{
+  height: 47px !important;
+}
