@@ -1,14 +1,12 @@
 .layout{
     display: grid;
-    grid-template-columns: 280px 1fr;
-    background-color: #333;
+    grid-template-columns: 275px 1fr;
     min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
-}
-
-@media (--tablet){
-    .layout{
-        grid-template-columns: 280px 1fr 280px;
+    
+    @media (--tablet){
+        grid-template-columns: 275px 1fr 275px;
+        max-width: 1270px;
     }
 }

@@ -7,7 +7,7 @@ import ThemeButton from '../theme-button'
 import ProfileBox from '../profile-box'
 
 function Sidebar({flat}){
-    return <div className={cn([styles.container])}>
+    return <div className={cn([styles.sidebarCol])}>
         <Navigation flat={flat}/>
         <ThemeButton big stretch>Tweet</ThemeButton>
         <ProfileBox/>
