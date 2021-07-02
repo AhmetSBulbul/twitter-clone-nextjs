@@ -9,3 +9,7 @@ Website: https://twitter-clone-nextjs-beta.vercel.app/
 - Storybook
 - PostCSS
 - Svgr
+
+## TODO
+
+- Components flicker while updating states (state dependencies)
