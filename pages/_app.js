@@ -1,5 +1,6 @@
 import React from 'react'
 
+import '../styles/normalize.css'
 import '../styles/app.css'
 
 // This default export is required in a new `pages/_app.js` file.

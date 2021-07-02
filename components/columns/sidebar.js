@@ -11,9 +11,9 @@ function Sidebar({ flat }) {
     <div className={cn([styles.sidebarCol])}>
       <Navigation flat={flat} />
       <ThemeButton big stretch={!flat} className={styles.tweetBtnMargin}>
-      {flat ? 'a':'Tweet'}
+        {flat ? 'a' : 'Tweet'}
       </ThemeButton>
-      <ProfileBox flat={flat} size = {39} className={styles.avatarMargin}/>
+      <ProfileBox flat={flat} size={39} className={styles.avatarMargin} />
     </div>
   )
 }

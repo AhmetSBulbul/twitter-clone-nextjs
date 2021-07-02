@@ -10,8 +10,6 @@ export default {
 
 const Template = (args) => <ProfileBox {...args} />
 
-
-
 export const ProfilePhoto = () => <Avatar />
 export const ProfileLine = () => <Byline />
 export const ProfileSettings = Template.bind({})

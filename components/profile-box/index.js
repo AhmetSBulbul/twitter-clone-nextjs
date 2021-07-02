@@ -8,17 +8,15 @@ import Button from '../button'
 import TextBody from '../text/body'
 import Byline from '../byline'
 
-function ProfileBox({ flat=false , className, size = 47}) {
+function ProfileBox({ flat = false, className, size = 47 }) {
   return (
     <Button className={cn([styles.box, className])}>
-      <Avatar size={size}/>
-      {!flat && 
-     <>
-     
-      <Byline column gap={0} /> <ArrowBottom className={styles.icon} />
-     </> 
-      }
-
+      <Avatar size={size} />
+      {!flat && (
+        <>
+          <Byline column gap={0} /> <ArrowBottom className={styles.icon} />
+        </>
+      )}
     </Button>
   )
 }

@@ -4,18 +4,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  @media (--desktop){
+
+  @media (--desktop) {
     align-items: flex-start;
   }
 }
 
-.tweetBtnMargin{
+.tweetBtnMargin {
   margin-top: 16px;
   margin-bottom: 20px;
 }
 
-.avatarMargin{
+.avatarMargin {
   margin-top: auto;
   margin-bottom: 20px;
 }

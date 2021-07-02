@@ -8,7 +8,7 @@ import Sidebar from '../components/columns/sidebar'
 
 function HomePage() {
   const size = useWindowSize()
-  
+
   return (
     <Layout>
       <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>Navigation</Sidebar>

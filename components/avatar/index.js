@@ -10,7 +10,7 @@ function Avatar({
   size = 47
 }) {
   return (
-    <div className={cn([styles.avatar])} style={{ '--size': `${size}px`}}>
+    <div className={cn([styles.avatar])} style={{ '--size': `${size}px` }}>
       <img className={styles.img} src={src} alt={alt} />
     </div>
   )
