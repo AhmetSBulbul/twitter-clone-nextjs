@@ -6,12 +6,16 @@ import Navigation from '../navigation/navigation'
 import ThemeButton from '../theme-button'
 import ProfileBox from '../profile-box'
 
-function Sidebar({flat}){
-    return <div className={cn([styles.sidebarCol])}>
-        <Navigation flat={flat}/>
-        <ThemeButton big stretch>Tweet</ThemeButton>
-        <ProfileBox/>
+function Sidebar({ flat }) {
+  return (
+    <div className={cn([styles.sidebarCol])}>
+      <Navigation flat={flat} />
+      <ThemeButton big stretch={!flat} className={styles.tweetBtnMargin}>
+      {flat ? 'a':'Tweet'}
+      </ThemeButton>
+      <ProfileBox flat={flat} size = {39} className={styles.avatarMargin}/>
     </div>
+  )
 }
 
 export default Sidebar

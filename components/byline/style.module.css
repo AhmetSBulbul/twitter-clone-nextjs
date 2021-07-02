@@ -1,0 +1,10 @@
+.body {
+  margin-left: 10px;
+  margin-right: 20px;
+  align-items: flex-start;
+  white-space: nowrap;
+}
+
+.slug {
+  color: var(--c-gray);
+}

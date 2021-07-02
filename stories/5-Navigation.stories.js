@@ -2,9 +2,16 @@ import React from 'react'
 
 import Navigation from '../components/navigation/navigation'
 
-export default{
-    title: 'Sidebar/NavigationMenu',
-    component: Navigation,
+export default {
+  title: 'Sidebar/NavigationMenu',
+  component: Navigation
 }
 
-export const Menu = () => <Navigation/>
+const Template = (args) => <Navigation {...args} />
+
+export const Menu = Template.bind({})
+
+Menu.args = {
+  flat: false,
+  selectedKey: 'explore'
+}

@@ -1,6 +1,7 @@
 .button {
   background-color: var(--c-theme);
   height: 40px;
+  min-width: 40px;
   padding-left: 15px;
   padding-right: 15px;
 
@@ -14,6 +15,7 @@
   }
 }
 
-.big{
-  height: 47px !important;
+.big {
+  height: 47px;
+  min-width: 47px;
 }

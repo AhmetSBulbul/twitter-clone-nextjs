@@ -17,6 +17,8 @@ export const Title = () => (
 export const Body = () => (
   <div>
     <TextBody>Body!</TextBody>
-    <TextBody bold style={{display: 'block'}}>Bold Body!</TextBody>
+    <TextBody bold style={{ display: 'block' }}>
+      Bold Body!
+    </TextBody>
   </div>
 )

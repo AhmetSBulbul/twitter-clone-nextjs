@@ -4,12 +4,11 @@ module.exports = {
     'postcss-custom-media': {
       importFrom: [
         {
-          customMedia: { '--tablet': '(min-width: 980px)'}
+          customMedia: { '--tablet': '(min-width: 980px)' }
         },
         {
-          customMedia: { '--desktop': '(min-width: 1270px)'}
+          customMedia: { '--desktop': '(min-width: 1270px)' }
         }
-
       ]
     }
   }

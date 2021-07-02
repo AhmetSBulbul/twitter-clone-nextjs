@@ -10,8 +10,8 @@ function NavButton({ children, selected, notify, ...props }) {
       className={cn(styles.navButton, selected && styles.navButtonSelected)}
       {...props}
     >
-      {children}
       {notify && <span className={styles.notify}>{notify}</span>}
+      {children}
     </Button>
   )
 }

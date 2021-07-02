@@ -1,10 +1,11 @@
 .avatar {
-    width: 47px;
-    flex-shrink: 0;
+  --size: 47px;
+  width: var(--size);
+  flex-shrink: 0;
 }
 
 .img {
-   display: block;
-   width: 100%;
-   border-radius: 99px; 
+  display: block;
+  width: 100%;
+  border-radius: 99px;
 }

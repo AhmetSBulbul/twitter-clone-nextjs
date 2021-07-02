@@ -1,25 +1,11 @@
-.box{
-    padding: 10px;
-    
-    &:hover {
-        color: var(--c-text-color);
-    }
-}
+.box {
+  padding: 10px;
 
-.body{
-    margin-left: 10px;
-    margin-right: 20px;
-
-    * {
-        display: block;
-        text-align: start;
-    }
+  &:hover {
+    color: var(--c-text-color);
+  }
 }
 
 .icon {
-    margin-left: auto;
-}
-
-.slug {
-   color: var(--c-gray); 
+  margin-left: auto;
 }

@@ -8,14 +8,12 @@ import Sidebar from '../components/columns/sidebar'
 
 function HomePage() {
   const size = useWindowSize()
+  
   return (
     <Layout>
-      <Sidebar>Navigation</Sidebar>
+      <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>Navigation</Sidebar>
       <Main>{JSON.stringify(size)}</Main>
-      {
-      size.width > CONST.TABLET_SIZE &&
-      <Extra>Extras</Extra>
-      }
+      {size.width > CONST.TABLET_SIZE && <Extra>Extras</Extra>}
     </Layout>
   )
 }

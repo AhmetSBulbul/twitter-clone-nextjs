@@ -1,3 +1,21 @@
-.sidebarCol{
-    padding-right: 40px;
+.sidebarCol {
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  @media (--desktop){
+    align-items: flex-start;
+  }
+}
+
+.tweetBtnMargin{
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.avatarMargin{
+  margin-top: auto;
+  margin-bottom: 20px;
 }
