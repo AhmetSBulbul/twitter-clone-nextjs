@@ -2,80 +2,21 @@ import React from 'react'
 
 import NavButton from './nav-button'
 import TextTitle from '../text/title'
-import {
-  Twitter,
-  Home,
-  Explore,
-  Notification,
-  Messages,
-  Bookmark,
-  Lists,
-  Profile,
-  More
-} from '../icons'
+import {Twitter} from '../icons'
+import { BUTTONS } from '../../constants'
 
 import styles from './navigation.module.css'
 
-const BUTTONS = [
-  {
-    key: 'home',
-    icon: <Home />,
-    title: 'Home',
-    notify: 0
-  },
-  {
-    key: 'explore',
-    icon: <Explore />,
-    title: 'Explore',
-    notify: 0
-  },
-  {
-    key: 'notification',
-    icon: <Notification />,
-    title: 'Notification',
-    notify: 0
-  },
-  {
-    key: 'messages',
-    icon: <Messages />,
-    title: 'Messages',
-    notify: 4
-  },
-  {
-    key: 'bookmarks',
-    icon: <Bookmark />,
-    title: 'Bookmarks',
-    notify: 0
-  },
-  {
-    key: 'lists',
-    icon: <Lists />,
-    title: 'Lists',
-    notify: 0
-  },
-  {
-    key: 'profile',
-    icon: <Profile />,
-    title: 'Profile',
-    notify: 0
-  },
-  {
-    key: 'more',
-    icon: <More />,
-    title: 'More',
-    notify: 0
-  }
-]
-
-function Navigation({ selectedKey, flat = false }) {
+function Navigation({ selectedKey='home', flat = false }) {
   return (
     <nav className={styles.nav}>
       <NavButton>
-        <Twitter />
+        <Twitter style={{fontSize:30}}/>
       </NavButton>
 
       {BUTTONS.map((item) => (
         <NavButton
+          key={item.key}
           notify={item.notify > 0 && item.notify}
           selected={selectedKey === item.key}
         >
