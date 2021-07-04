@@ -1,7 +1,6 @@
 .layout {
   display: grid;
   grid-template-columns: auto 1fr;
-  min-height: 100vh;
   min-height: -webkit-fill-available;
   margin-left: auto;
   margin-right: auto;
@@ -9,8 +8,9 @@
   @media (--tablet) {
     grid-template-columns: auto 1fr 275px;
     max-width: 1060px;
+  min-height: 100vh;
   }
-  
+
   @media (--desktop) {
     max-width: 1270px;
   }

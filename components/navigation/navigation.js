@@ -2,16 +2,16 @@ import React from 'react'
 
 import NavButton from './nav-button'
 import TextTitle from '../text/title'
-import {Twitter} from '../icons'
+import { Twitter } from '../icons'
 import { BUTTONS } from '../../constants'
 
 import styles from './navigation.module.css'
 
-function Navigation({ selectedKey='home', flat = false }) {
+function Navigation({ selectedKey = 'home', flat = false }) {
   return (
     <nav className={styles.nav}>
       <NavButton>
-        <Twitter style={{fontSize:30}}/>
+        <Twitter style={{ fontSize: 30 }} />
       </NavButton>
 
       {BUTTONS.map((item) => (
