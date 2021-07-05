@@ -15,3 +15,4 @@ Website: https://twitter-clone-nextjs-beta.vercel.app/
 - Components flicker while updating states (state dependencies)
 - Re-factor Storybook folder for docs and controls
 - Typography bug on navigation buttons(line height)
+- Fix useWindowSize Bug

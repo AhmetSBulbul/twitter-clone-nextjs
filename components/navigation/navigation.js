@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import NavButton from './nav-button'
 import TextTitle from '../text/title'
-import { Twitter } from '../icons'
+import { Twitter, More } from '../icons'
 import { BUTTONS } from '../../constants'
 
 import styles from './navigation.module.css'
