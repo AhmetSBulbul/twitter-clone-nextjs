@@ -1,5 +1,5 @@
 import React from 'react'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 
 import NavButton from './nav-button'
 import TextTitle from '../text/title'
@@ -8,7 +8,7 @@ import { BUTTONS } from '../../constants'
 
 import styles from './navigation.module.css'
 
-function Navigation({ selectedKey = 'home', flat = false }) {
+function Navigation({ flat = false }) {
   const router = useRouter()
   return (
     <nav className={styles.nav}>
@@ -16,18 +16,20 @@ function Navigation({ selectedKey = 'home', flat = false }) {
         <Twitter style={{ fontSize: 30 }} />
       </NavButton>
 
-      {BUTTONS.map((item) => (
-        <NavButton
+      {BUTTONS.map((item) => {
+        const showTitle = !flat && item.title.length>0
+        const selected = router.pathname === item.path
+        return (<NavButton
           key={item.key}
           notify={item.notify > 0 && item.notify}
-          selected={router.pathname === item.path}
+          selected={selected}
           href={item.path}
-        className={styles.navButton}
+          className={styles.navButton}
         >
           {item.icon}
-          {!flat && <TextTitle>{item.title}</TextTitle>}
+          {showTitle && <TextTitle>{item.title}</TextTitle>}
         </NavButton>
-      ))}
+)      })}
     </nav>
   )
 }

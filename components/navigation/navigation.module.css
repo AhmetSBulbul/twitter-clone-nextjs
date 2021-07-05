@@ -6,9 +6,8 @@
   }
 }
 
-.navButton{
-  
-    & + & {
-      margin-top: 8px;
-    }
+.navButton {
+  & + & {
+    margin-top: 8px;
+  }
 }

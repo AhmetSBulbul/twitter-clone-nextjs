@@ -21,7 +21,13 @@ export const BUTTONS = [
     title: 'Home',
     notify: 0
   },
-  { path: '/explore', key: 'explore', icon: <Explore />, title: 'Explore', notify: 0 },
+  {
+    path: '/explore',
+    key: 'explore',
+    icon: <Explore />,
+    title: 'Explore',
+    notify: 0
+  },
   {
     path: '/notifications',
     key: 'notifications',
@@ -44,6 +50,12 @@ export const BUTTONS = [
     notify: 0
   },
   { path: '/lists', key: 'lists', icon: <Lists />, title: 'Lists', notify: 0 },
-  { path: '/profile', key: 'profile', icon: <Profile />, title: 'Profile', notify: 0 },
+  {
+    path: '/profile',
+    key: 'profile',
+    icon: <Profile />,
+    title: 'Profile',
+    notify: 0
+  },
   { path: '/more', key: 'more', icon: <More />, title: 'More', notify: 0 }
 ]

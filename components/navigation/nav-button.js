@@ -6,7 +6,11 @@ import styles from './nav-button.module.css'
 function NavButton({ href, children, selected, notify, className, ...props }) {
   return (
     <Button
-      className={cn(styles.navButton, selected && styles.navButtonSelected, className)}
+      className={cn(
+        styles.navButton,
+        selected && styles.navButtonSelected,
+        className
+      )}
       href={href}
       {...props}
     >
