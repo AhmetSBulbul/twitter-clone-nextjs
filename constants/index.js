@@ -23,10 +23,10 @@ export const BUTTONS = [
   },
   { path: '/explore', key: 'explore', icon: <Explore />, title: 'Explore', notify: 0 },
   {
-    path: '/notification',
-    key: 'notification',
+    path: '/notifications',
+    key: 'notifications',
     icon: <Notification />,
-    title: 'Notification',
+    title: 'Notifications',
     notify: 0
   },
   {

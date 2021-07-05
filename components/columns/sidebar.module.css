@@ -7,6 +7,7 @@
 
   @media (--desktop) {
     align-items: flex-start;
+    padding-right: 46px;
   }
 }
 

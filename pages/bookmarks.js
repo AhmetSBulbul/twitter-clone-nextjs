@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../components/layout'
 
-function HomePage() {
+function BookmarksPage() {
 
   return (
     <Layout>
-    Home
+    Bookmarks
     </Layout>
   )
 }
 
-export default HomePage
+export default BookmarksPage

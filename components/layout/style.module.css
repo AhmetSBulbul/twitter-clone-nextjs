@@ -1,17 +1,18 @@
 .layout {
+  --mobile-vh: 100vh; /* Will be window.innerHeight to avoid 100vh bug of mobile browsers */
   display: grid;
   grid-template-columns: auto 1fr;
-  min-height: -webkit-fill-available;
+  min-height: var(--mobile-vh);
   margin-left: auto;
   margin-right: auto;
 
   @media (--tablet) {
     grid-template-columns: auto 1fr 275px;
     max-width: 1060px;
-  min-height: 100vh;
   }
 
   @media (--desktop) {
+    min-height: 100vh;
     max-width: 1270px;
   }
 }
