@@ -6,7 +6,7 @@ import Navigation from '../navigation/navigation'
 import ThemeButton from '../theme-button'
 import ProfileBox from '../profile-box'
 
-function Sidebar({ flat=true }) {
+function Sidebar({ flat }) {
   return (
     <div className={cn([styles.sidebarCol])}>
       <Navigation flat={flat} />
