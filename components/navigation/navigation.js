@@ -8,7 +8,7 @@ import { BUTTONS } from '../../constants'
 
 import styles from './navigation.module.css'
 
-function Navigation({ flat = false }) {
+function Navigation({ flat = true }) {
   const router = useRouter()
   return (
     <nav className={styles.nav}>
