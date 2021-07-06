@@ -1,8 +1,9 @@
 # twitter-clone-next
 
-Website: https://twitter-clone-nextjs-beta.vercel.app/
+- Website: https://twitter-clone-nextjs-beta.vercel.app/
+- Storybook: https://twitter-clone-nextjs-beta.vercel.app/guide/index.html
 
-## Tools
+### Tools
 
 - React
 - Nextjs
@@ -10,9 +11,21 @@ Website: https://twitter-clone-nextjs-beta.vercel.app/
 - PostCSS
 - Svgr
 
-## TODO
+### TODO
 
-- Components flicker while updating states (state dependencies)
-- Re-factor Storybook folder for docs and controls
-- Typography bug on navigation buttons(line height)
-- Fix useWindowSize Bug
+- [x] Columns
+- [x] Navigation Flat
+- [x] Pages
+- [x] Theme
+- [ ] More Dropdown Menu
+- [ ] Twitter Api
+- [ ] Tweet Modal
+- [ ] Display Modal
+- [ ] Full Documentation on Storybook for components, tools, tricks and codes.
+
+### Bugs and Re-Factor
+
+- [ ] Components flicker while updating states (state dependencies)
+- [ ] Typography bug on navigation buttons(line height)
+- [ ] useWindowSize bug: hook must be accessed from _app.js with context provider
+- [ ] theme hook must be in hooks folder.s

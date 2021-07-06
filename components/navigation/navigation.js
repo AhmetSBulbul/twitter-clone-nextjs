@@ -17,19 +17,21 @@ function Navigation({ flat = false }) {
       </NavButton>
 
       {BUTTONS.map((item) => {
-        const showTitle = !flat && item.title.length>0
+        const showTitle = !flat && item.title.length > 0
         const selected = router.pathname === item.path
-        return (<NavButton
-          key={item.key}
-          notify={item.notify > 0 && item.notify}
-          selected={selected}
-          href={item.path}
-          className={styles.navButton}
-        >
-          {item.icon}
-          {showTitle && <TextTitle>{item.title}</TextTitle>}
-        </NavButton>
-)      })}
+        return (
+          <NavButton
+            key={item.key}
+            notify={item.notify > 0 && item.notify}
+            selected={selected}
+            href={item.path}
+            className={styles.navButton}
+          >
+            {selected ? item.iconSelected : item.icon}
+            {showTitle && <TextTitle>{item.title}</TextTitle>}
+          </NavButton>
+        )
+      })}
     </nav>
   )
 }

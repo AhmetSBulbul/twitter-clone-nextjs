@@ -10,17 +10,17 @@
   }
 }
 
-.dd{
+.dd {
   position: absolute;
-  left:-18px;
+  left: -18px;
   bottom: 0;
   background-color: #fff;
   opacity: 0.1;
   height: 200px;
   width: 200px;
-  
+
   @media (--desktop) {
-    left:0;
+    left: 0;
     bottom: 0;
   }
 }
