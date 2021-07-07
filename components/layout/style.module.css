@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
   margin-left: auto;
   margin-right: auto;
 
