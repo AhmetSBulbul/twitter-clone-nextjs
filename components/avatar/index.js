@@ -5,7 +5,7 @@ import cn from 'classnames'
 import styles from './style.module.css'
 
 function Avatar({
-  src = 'https://pbs.twimg.com/profile_images/1333457383562076166/vxVgU87X_400x400.jpg',
+  src = 'https://pbs.twimg.com/profile_images/1410327359186685960/RJUXotCV_400x400.jpg',
   alt,
   size = 47
 }) {
