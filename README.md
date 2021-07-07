@@ -28,6 +28,6 @@
 
 - [ ] Components flicker while updating states (state dependencies)
 - [ ] Typography bug on navigation buttons(line height)
-- [ ] useWindowSize bug: hook must be accessed from \_app.js with context provider
+- [x] useWindowSize bug: hook must be accessed from \_app.js with context provider
 - [ ] theme hook must be in hooks folder.s
 - [ ] Navigation link paths bug on storybook

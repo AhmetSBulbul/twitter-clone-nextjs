@@ -2,9 +2,11 @@ import React, { useState, useEffect } from 'react'
 
 import '../styles/normalize.css'
 import '../styles/app.css'
+import useWindowSize from '../hooks/useWindowSize'
 import StoreContext from '../store'
 // This default export is required in a new `pages/_app.js` file.
-export default function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
+  const size = useWindowSize()
   const [theme, setTheme] = useState(null)
 
   useEffect(() => {
@@ -23,8 +25,13 @@ export default function MyApp({ Component, pageProps }) {
   }, [theme])
 
   return (
-    <StoreContext.Provider value={{ theme, changeTheme }}>
+    <StoreContext.Provider value={{ theme, changeTheme,size }}>
       <Component {...pageProps} />
     </StoreContext.Provider>
   )
 }
+
+
+  
+
+export default MyApp
