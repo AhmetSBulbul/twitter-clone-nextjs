@@ -13,7 +13,6 @@ function Layout({ children }) {
   return (
     <div
       className={cn([styles.layout])} //column must override stack class if it's true. classNames must be in list to avoid override errors.
-      style={{ '--mobile-vh': `${context.size.height}px` }} //to avoid vh bug on mobile browsers using window height size instead of 100vh
     >
       <Sidebar flat={context.size.width < CONST.DESKTOP_SIZE}>Navigation</Sidebar>
       <Main>{children}</Main>
