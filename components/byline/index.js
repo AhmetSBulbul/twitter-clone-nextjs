@@ -11,10 +11,11 @@ import TextBody from '../text/body'
 function Byline({
   name = 'Ahmet Safa Bülbül',
   slug = 'ahmetsafablbl1',
+  className,
   ...props
 }) {
   return (
-    <Stack gap={8} {...props} className={styles.body}>
+    <Stack gap={8} {...props} className={cn([styles.body, className])}>
       <TextBody bold>{name}</TextBody>
       <TextBody className={styles.slug}>@{slug}</TextBody>
     </Stack>

@@ -4,7 +4,7 @@ import ThemeSelect from '../components/theme-select'
 function MorePage() {
   return (
     <Layout>
-    <ThemeSelect/>
+      <ThemeSelect />
     </Layout>
   )
 }

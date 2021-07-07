@@ -14,7 +14,8 @@ function ProfileBox({ flat = false, className, size = 47 }) {
       <Avatar size={size} />
       {!flat && (
         <>
-          <Byline column gap={0} /> <ArrowBottom className={styles.icon} />
+          <Byline column gap={2} className={styles.byline} />{' '}
+          <ArrowBottom className={styles.icon} />
         </>
       )}
     </Button>

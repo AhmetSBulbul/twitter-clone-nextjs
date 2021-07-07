@@ -70,3 +70,13 @@ export const BUTTONS = [
     notify: 0
   }
 ]
+
+export const ACTIONS = [
+  {
+    key: 'reply',
+    icon: <Icon.Reply />,
+    count: 0
+  },
+  { key: 'retweet', icon: <Icon.Retweet />, count: 20 },
+  { key: 'like', icon: <Icon.Like />, count: 0 }
+]

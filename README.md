@@ -18,6 +18,7 @@
 - [x] Pages
 - [x] Theme
 - [ ] More Dropdown Menu
+- [x] Tweet Component
 - [ ] Twitter Api
 - [ ] Tweet Modal
 - [ ] Display Modal
@@ -27,6 +28,6 @@
 
 - [ ] Components flicker while updating states (state dependencies)
 - [ ] Typography bug on navigation buttons(line height)
-- [ ] useWindowSize bug: hook must be accessed from _app.js with context provider
+- [ ] useWindowSize bug: hook must be accessed from \_app.js with context provider
 - [ ] theme hook must be in hooks folder.s
 - [ ] Navigation link paths bug on storybook
