@@ -17,6 +17,11 @@
 }
 
 .avatarMargin {
+  --margin-bottom-on-mobile: 10vh;
   margin-top: auto;
-  margin-bottom: 20px;
+  margin-bottom: calc(var(--margin-bottom-on-mobile) + 18px);
+
+  @media (--desktop) {
+    margin-bottom: 18px;
+  }
 }

@@ -9,6 +9,7 @@ import StoreContext from '../../store'
 
 function Layout({ children }) {
   const context = useContext(StoreContext)
+  
 
   return (
     <div

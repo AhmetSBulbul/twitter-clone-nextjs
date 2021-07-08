@@ -32,3 +32,4 @@
 - [ ] theme hook must be in hooks folder.s
 - [ ] Navigation link paths bug on storybook
 - [ ] 100vh bug on mobile
+- [ ] Fix button outline for older browsers. It's look like 2012.

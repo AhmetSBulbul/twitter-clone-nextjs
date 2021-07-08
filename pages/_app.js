@@ -23,6 +23,8 @@ function MyApp({ Component, pageProps }) {
     const $html = document.querySelector('html')
     $html.setAttribute('class', theme)
   }, [theme])
+  
+  
 
   return (
     <StoreContext.Provider value={{ theme, changeTheme,size }}>
