@@ -1,0 +1,52 @@
+.overlay{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  display: grid;
+  grid-template-areas: 'avatar body';
+  grid-template-columns: 50px 1fr;
+  grid-gap: 15px;
+  padding: 12px 15px;
+  background-color: var(--c-primary);
+  border-radius: 16px;
+}
+
+.body {
+  grid-area: body;
+}
+.avatarWrapper {
+  grid-area: avatar;
+}
+.body {
+  white-space: pre-wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.textarea {
+  resize: none;
+  background-color: transparent;
+  outline: 0;
+  color: var(--c-text-color);
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+
+.actionBtn {
+  svg {
+    font-size: 19px !important;
+    color: var(--c-gray);
+  }
+}

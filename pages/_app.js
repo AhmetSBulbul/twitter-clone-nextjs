@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 
-import '../styles/normalize.css'
 import '../styles/app.css'
 import useWindowSize from '../hooks/useWindowSize'
 import StoreContext from '../store'
