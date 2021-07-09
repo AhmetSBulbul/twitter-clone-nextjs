@@ -12,13 +12,13 @@ import {
 import IconButton from '../icon-button'
 import ThemeButton from '../theme-button'
 
-function TweetModal({ }) {
+function TweetModal({ onClick = () => {}}) {
   return (
     <div className={styles.overlay}>
       <div className={styles.modal}>
         
         <div className={styles.header}>
-          <IconButton><Close/></IconButton>
+          <IconButton onClick={onClick}><Close/></IconButton>
         </div>
         <div className={styles.body}>
           <div className={styles.avatarWrapper}>
