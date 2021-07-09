@@ -5,7 +5,7 @@ import styles from './sidebar.module.css'
 import Navigation from '../navigation/navigation'
 import ThemeButton from '../theme-button'
 import ProfileBox from '../profile-box'
-import { TweetIcon } from '../icons'
+import { SendTweet } from '../icons'
 import TweetModal from '../tweet-modal'
 
 function Sidebar({ flat = false }) {
@@ -15,7 +15,7 @@ function Sidebar({ flat = false }) {
     <div className={cn([styles.sidebarCol])}>
       <Navigation flat={flat} />
       <ThemeButton big stretch={!flat} className={styles.tweetBtnMargin} onClick={() => setIsShowModal(true)}>
-        {flat ? <TweetIcon /> : 'Tweet'}
+        {flat ? <SendTweet /> : 'Tweet'}
       </ThemeButton>
 
       {/* tweet-popup*/}
