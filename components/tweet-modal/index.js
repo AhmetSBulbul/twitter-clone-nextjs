@@ -28,7 +28,7 @@ function TweetModal({ onModalClose = () => {}}) {
           <div className={styles.avatarWrapper}>
             <Avatar/>
           </div>
-          <textarea className={cn([styles.textarea, styles.resize])} rows='4' placeholder="Contact Me!"></textarea>
+          <textarea className={cn([styles.textarea, styles.resize])} rows='2' placeholder="Contact Me!"></textarea>
         </div>
         <div className={styles.footer}>
           <ThemeButton>Tweet</ThemeButton>

@@ -21,13 +21,19 @@
 .modal {
   display: grid;
   
-  grid-rows: 50px 1fr 50px;
+  grid-template-rows: 50px auto;
+  
   grid-gap: 15px;
   padding-bottom: 12px;
   background-color: var(--c-primary);
   border-radius: 16px;
   width: 100%;
-  max-width: 600px;
+  height: 100%;
+  @media (--tablet){
+    max-width: 600px;
+    height: auto;
+    
+  }
 
   * + * {
     padding: 0 15px;
