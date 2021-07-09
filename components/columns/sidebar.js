@@ -11,6 +11,10 @@ import TweetModal from '../tweet-modal'
 function Sidebar({ flat = false }) {
   const [isShowModal, setIsShowModal] = useState(false)
 
+  const onModalClose = () => {
+    setIsShowModal(false);
+  }
+
   return (
     <div className={cn([styles.sidebarCol])}>
       <Navigation flat={flat} />
@@ -19,7 +23,7 @@ function Sidebar({ flat = false }) {
       </ThemeButton>
 
       {/* tweet-popup*/}
-      {isShowModal && <TweetModal onClick={() => setIsShowModal(false)}/>}
+      {isShowModal && <TweetModal onModalClose={onModalClose}/>}
 
       <ProfileBox flat={flat} size={39} className={styles.avatarMargin} />
     </div>

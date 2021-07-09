@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 
 import cn from 'classnames'
 import Avatar from '../avatar'
@@ -11,14 +11,18 @@ import {
 } from '../icons'
 import IconButton from '../icon-button'
 import ThemeButton from '../theme-button'
+import useOnClickOutside from '../../hooks/useOnClickOutside'
 
-function TweetModal({ onClick = () => {}}) {
+function TweetModal({ onModalClose = () => {}}) {
+  const ref = useRef()
+  useOnClickOutside(ref, onModalClose)
+
   return (
     <div className={styles.overlay}>
-      <div className={styles.modal}>
+      <div className={styles.modal} ref={ref}>
         
         <div className={styles.header}>
-          <IconButton onClick={onClick}><Close/></IconButton>
+          <IconButton onClick={onModalClose}><Close/></IconButton>
         </div>
         <div className={styles.body}>
           <div className={styles.avatarWrapper}>
