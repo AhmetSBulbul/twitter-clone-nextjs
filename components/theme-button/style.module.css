@@ -6,6 +6,8 @@
   padding-right: 15px;
 
   font-weight: bold;
+  box-sizing: content-box;
+  
 
   &:hover {
     color: var(--c-text-color);
