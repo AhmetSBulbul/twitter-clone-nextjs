@@ -59,6 +59,7 @@
 
 .featuredImage{
   border-radius: 15px;
+  object-fit: contain;
 }
 
 .actionBtn {

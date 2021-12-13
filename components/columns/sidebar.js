@@ -25,7 +25,7 @@ function Sidebar({ flat = false }) {
       {/* tweet-popup*/}
       {isShowModal && <TweetModal onModalClose={onModalClose}/>}
 
-      <ProfileBox flat={flat} size={39} className={styles.avatarMargin} />
+      <a href='https://ahmetsafabulbul.com/' target="_blank" rel='author' className={styles.webLink}><ProfileBox flat={flat} size={39} className={styles.avatarMargin} /></a>
     </div>
   )
 }

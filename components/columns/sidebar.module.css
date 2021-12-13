@@ -17,11 +17,9 @@
 }
 
 .avatarMargin {
-  --margin-bottom-on-mobile: 10vh;
-  margin-top: auto;
-  margin-bottom: calc(var(--margin-bottom-on-mobile) + 18px);
+  
+}
 
-  @media (--desktop) {
-    margin-bottom: 18px;
-  }
+.webLink{
+  text-decoration: none;
 }

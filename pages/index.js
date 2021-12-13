@@ -25,6 +25,8 @@ function HomePage() {
        
       />
       <Tweet dateTime={new Date('2021-06-05')} href="https://www.rotasizkaravan.com/" text="Jamstack mimarisi ile gatsbyjs framework'ü kullanarak geliştirdiğim rotasız karavan resmi web sitesini inceleyin!" src="https://ahmetsafabulbul.com/portfolio/rotasiz-karavan/desktop.png" />
+      <Tweet dateTime={new Date('2021-12-17')} href="https://ahmetsafabulbul.com/portfolyo/qupo-business" src="https://ahmetsafabulbul.com/portfolio/qupo-business/logo.png"
+      text="Flutter ile geliştirdiğim qupo business uygulamasına göz atın!"/>
       <Tweet
         dateTime={new Date('2021-06-05')}
         text={`May the Force Be With You!`}
