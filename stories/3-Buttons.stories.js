@@ -8,7 +8,7 @@ import ThemeButton from '../components/theme-button'
 import Stack from '../components/stack'
 import IconButton from '../components/icon-button'
 export default {
-  title: 'Twitter/Buttons',
+  title: 'Components/Buttons',
   component: Button
 }
 

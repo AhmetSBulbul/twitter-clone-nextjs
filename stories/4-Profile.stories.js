@@ -4,7 +4,7 @@ import ProfileBox from '../components/profile-box'
 import Byline from '../components/byline'
 
 export default {
-  title: 'Twitter/Profile',
+  title: 'Components/Profile',
   component: ProfileBox
 }
 

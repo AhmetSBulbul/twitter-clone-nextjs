@@ -2,7 +2,7 @@ import React from 'react'
 import TweetModal from '../components/tweet-modal'
 
 export default {
-  title: 'Twitter/TweetModal',
+  title: 'Components/TweetModal',
   component: TweetModal
 }
 

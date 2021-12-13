@@ -3,7 +3,7 @@ import React from 'react'
 import Navigation from '../components/navigation/navigation'
 
 export default {
-  title: 'Sidebar/NavigationMenu',
+  title: 'Components/NavigationMenu',
   component: Navigation
 }
 

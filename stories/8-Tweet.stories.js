@@ -2,7 +2,7 @@ import React from 'react'
 import Tweet from '../components/tweet'
 
 export default {
-  title: 'Twitter/Tweet',
+  title: 'Components/Tweet',
   component: Tweet
 }
 
@@ -12,7 +12,6 @@ export const SimpleTweet = Template.bind({})
 
 SimpleTweet.args = {
   dateTime: new Date('2021-06-05'),
-  text: `Hey Bu 
-      Benim ilk Tweetim
+  text: `İlk Tweetim
   `
 }

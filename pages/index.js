@@ -15,6 +15,14 @@ function HomePage() {
       </MainHeader>
       <Tweet
         dateTime={new Date('2021-06-05')}
+        text={`Merhaba! Ben Ahmet Safa Bülbül 👋`}
+      />
+      <Tweet
+        dateTime={new Date('2021-06-05')}
+        text={`Freelance olarak web ve mobil yazılım geliştiriciliği yapmaktayım. ahmetsafabulbul.com adresi üzerinden hakkımda daha fazla bilgiye ulaşabilirsiniz.`}
+      />
+      <Tweet
+        dateTime={new Date('2021-06-05')}
         text={`May the Force Be With You!`}
       />
     </Layout>

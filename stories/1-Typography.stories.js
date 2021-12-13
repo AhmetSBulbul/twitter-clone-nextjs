@@ -4,7 +4,7 @@ import TextTitle from '../components/text/title'
 import TextBody from '../components/text/body'
 
 export default {
-  title: 'Twitter/Typography'
+  title: 'Fundamentals/Typography'
 }
 
 export const Title = () => (
