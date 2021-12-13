@@ -24,7 +24,7 @@ function Tweet({ dateTime, text, children, src, href }) {
         <div className={styles.content}>
           {text && <p>{text}</p>}
           {src && <div className={styles.featuredWrapper}><Image src={src} width={960} height={540} className={styles.featuredImage} layout="responsive"/></div>}
-          
+          {href && <span>🔗 <a href={href} className={styles.link} target="_blank" rel='noreferrer'><strong>{href}</strong></a></span>}
         </div>
         <footer className={styles.footer}>
           {ACTIONS.map((action) => {
@@ -37,7 +37,7 @@ function Tweet({ dateTime, text, children, src, href }) {
               </div>
             )
           })}
-          {href && <a href={href} className={styles.link} target="_blank" rel='noreferrer'><strong>Bağlantıya Git</strong></a>}
+          
         </footer>
       </div>
     </article>
