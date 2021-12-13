@@ -23,6 +23,9 @@
 - [ ] Display Modal
 - [ ] Full Documentation on Storybook for components, tools, tricks and codes.
 - [ ] Send e-mail to me with tweet
+- [ ] About me
+- [ ] Projects
+- [ ] Contact Links
 
 ### Bugs and Re-Factor
 

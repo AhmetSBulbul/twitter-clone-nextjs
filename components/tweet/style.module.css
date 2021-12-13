@@ -17,6 +17,8 @@
   white-space: pre-wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
 }
 .header {
   display: inline-flex;
@@ -43,6 +45,20 @@
   &:first-child {
     margin-left: -8px;
   }
+}
+
+.featuredWrapper{
+  display: block;
+  padding: 10px 0 10px 0;
+}
+
+.link{
+  margin-left: auto;
+
+}
+
+.featuredImage{
+  border-radius: 15px;
 }
 
 .actionBtn {
