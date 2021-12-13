@@ -6,6 +6,7 @@ import Main from '../columns/main'
 import Extra from '../columns/extra'
 import styles from './style.module.css'
 import StoreContext from '../../store'
+import ExtrasContact from '../../modules/ExtrasContact'
 
 function Layout({ children }) {
   const context = useContext(StoreContext)
@@ -17,7 +18,7 @@ function Layout({ children }) {
     >
       <Sidebar flat={context.size.width < CONST.DESKTOP_SIZE}>Navigation</Sidebar>
       <Main>{children}</Main>
-      {context.size.width > CONST.TABLET_SIZE && <Extra>Extras</Extra>}
+      {context.size.width > CONST.TABLET_SIZE && <Extra><ExtrasContact/></Extra>}
     </div>
   )
 }

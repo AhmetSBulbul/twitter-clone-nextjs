@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    ul{
+        list-style-type: none;
+        margin-top: 1rem;
+    }
+
+    h2{
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    li{
+        margin: 1rem 0 1rem 0;
+    }
+
+    a{
+        color: var(--c-text-color);
+        font-weight: 600;
+    }
+}

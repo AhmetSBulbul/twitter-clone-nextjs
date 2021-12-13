@@ -18,6 +18,13 @@ body {
   background-color: var(--c-primary);
   color: var(--c-text-color);
 
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
 }
 
 a {
